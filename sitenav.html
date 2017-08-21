@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title></title>
+  <script src="jquery/jquery-1.12.0.min.js"></script>
+  <script src="js/rem.js"></script>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/common.css"/>
+  <link rel="stylesheet" href="css/com.css"/>
+  <link rel="stylesheet" href="css/sitenar.css"/>
+</head>
+<body>
+<!--头部开始-->
+
+<header>
+  <p class="savemoney">商城导航</p>
+
+  <div class="load"></div>
+</header>
+<!--头部结束-->
+
+<!--主体部分-->
+<section class="body">
+  <ul class="message clearfix"></ul>
+  <script type="text/template" id="message">
+    {{each result as value}}
+    <li class="fl">
+      <a href="{{value.navHref}}" class="a"></a>
+      <img src="{{value.navImg}}"/>
+      <span>{{value.navTitle}}</span>
+    </li>
+    {{/each}}
+</script>
+</section>
+<!--主体部分-->
+
+<!--底部开始  公共-->
+<footer>
+  <ul class="clearfix">
+    <li class="fl">登录</li>
+    <li class="fl">注册</li>
+    <li class="fl"><img src="images/icons/top.jpg" />返回顶部</li>
+  </ul>
+  <p><span>手机APP下载</span> <span>慢慢买手机版</span> <span>--掌上比价平台</span></p>
+  <p>m.manmanbuy.com</p>
+</footer>
+<!--底部结束  公共-->
+</body>
+<script src="js/template.js"></script>
+<script src='js/MLRoute.js'></script>
+
+<script src="js/com.js"></script>
+<script src="js/sitenar.js"></script>
+<script>
+
+
+</script>
+</html>

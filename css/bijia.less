@@ -1,0 +1,143 @@
+@import "com.less";
+.body{
+  padding-top: 40/40rem;
+  padding-bottom: 50/40rem;
+  background:@backcolor ;
+  .top{
+    position: relative;
+    padding-bottom: 40/40rem;
+    h2{
+      font-size: 34/40rem;
+      text-align: center;
+      color: #000;
+      font-weight: 700;
+      line-height: 46/40rem;
+      width: 670/40rem;
+      margin: 0 auto;
+    }
+    .img{
+      width: 350/40rem;
+      margin: 0 auto;
+    }
+    .shoucang{
+      width: 80/40rem;
+      height: 80/40rem;
+      background: url("../images/shoucang.png") no-repeat;
+      background-size: contain;
+      position: absolute;
+      right: 80/40rem;
+      bottom: 50/40rem;
+    }
+  }
+  .pjList{
+    width: 100%;
+    border-bottom: 2/40rem solid #be4f36;
+    border-top:2/40rem solid #be4f36 ;
+    height: 64/40rem;
+    background: linear-gradient(to bottom,#ffe05a,#ffc402);
+    font-size: 30/40rem;
+    text-align: center;
+    line-height: 64/40rem;
+    //font-weight: 700;
+    color: @backcolor;
+    box-sizing: border-box;
+    li {
+      height: 100%;
+      border-right: 2/40rem solid #be4f36;
+      &:nth-last-child(1){
+        border-right:none;
+      }
+    }
+  }
+  .buy{
+    height: 90/40rem;
+    padding: 0 20/40rem;
+    line-height: 90/40rem;
+    font-size: 30/40rem;
+    color: #000;
+    border-bottom: 2/40rem solid #cacaca;
+    img{
+      width: 30/40rem;
+      height: 30/40rem;
+      float: left;
+      margin-top: 30/40rem;
+      margin-right: 10/40rem;
+    }
+    .price{
+      color: #f00;
+    }
+    .gobuy{
+      width: 120/40rem;
+      height: 50/40rem;
+      height: 50/40rem;
+      line-height: 50/40rem;
+      text-align: center;
+      color: @backcolor;
+      font-size: 24/40rem;
+      background: #ff5500;
+      margin-left: 30/40rem;
+      margin-top: 20/40rem;
+      border-radius: 15/40rem;
+    }
+
+  }
+  p{
+    padding: 0 20/40rem;
+    color: #999;
+    font-size: 24/40rem;
+    line-height: 30/40rem ;
+    margin-top: 15/40rem;
+    padding-bottom: 25/40rem;
+    border-bottom:5/40rem solid  #656565;
+
+  }
+  .content{
+    .title{
+      height: 70/40rem;
+      background: @borderColor;
+      text-align: center;
+      font-size: 36/40rem;
+      line-height: 70/40rem;
+      color: #000;
+    }
+    .neirong{
+      .dat-person{
+        padding: 30/40rem 20/40rem 0;
+        border-bottom: 2/40rem solid #cacaca;
+        .person{
+          line-height: 26/40rem;
+          color: #656565;
+          font-size: 20/40rem;
+
+        }
+        .from{
+          text-align: right;
+          font-size: 26/40rem;
+
+        }
+        .con-content{
+          border: none;
+        }
+
+      }
+
+    }
+    .andMore{
+      width: 670/40rem;
+      height: 60/40rem;
+      background: linear-gradient(to bottom,#efefef,#d7d7d7);
+      border-bottom: 1/40rem solid #cacaca;
+      border-radius: 10/40rem;
+      margin: 30/40rem auto 0;
+      color: #000;
+      text-align: center;
+      font-size: 30/40rem;
+      line-height: 60/40rem;
+
+    }
+
+  }
+}
+.active{
+  background: #ff960f;
+}

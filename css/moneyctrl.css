@@ -1,0 +1,45 @@
+header .savemoney {
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 2.45rem;
+  position: absolute;
+  text-align: center;
+}
+.body {
+  background: #ffffff;
+}
+.body .pro-sales li {
+  height: 6.45rem;
+  box-sizing: border-box;
+  padding: 0.75rem 0.6rem 0;
+  border-bottom: 1px solid #e7e7e7;
+  position: relative;
+}
+.body .pro-sales li a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.body .pro-sales li img {
+  float: left;
+  height: 5rem;
+  width: auto;
+}
+.body .pro-sales li div {
+  width: 12.25rem;
+  font-size: 0.65rem;
+  text-align: justify;
+}
+.body .pro-sales li div .name {
+  height: 3.25rem;
+}
+.body .pro-sales li div .price {
+  color: red;
+}
+.body .pro-sales li div .from {
+  font-size: 0.5rem;
+  color: #91949b;
+}

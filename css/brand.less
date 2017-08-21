@@ -1,0 +1,152 @@
+.body{
+  background: #fff;
+  .title{
+    height: 73/40rem;
+    border-bottom: 2/40rem solid #c9c9c9;
+    border-top:2/40rem solid #c9c9c9;
+    background: linear-gradient(to bottom,#ffffff,#e2e2e2);
+    text-indent: 30/40rem;
+    font-size: 28/40rem;
+    line-height: 73/40rem;
+    font-weight: 600;
+    color: #000;
+    &.which{
+      background: #f3f3f3;
+      color: #5a1a0d;
+      font-weight: 600;
+    }
+
+  }
+  .proList{
+    li{
+      height: 130/40rem;
+      border-bottom: 1px solid #ccc;
+      box-sizing: border-box;
+      padding: 20/40rem;
+      position: relative;
+      .boxList{
+        width: 40/40rem;
+        height: 40/40rem;
+        box-sizing: border-box;
+        background: #c9c9c9;
+        border: 1px solid #c1c1c1;
+        color: #fff;
+        font-size: 20/40rem;
+        font-weight: 600;
+        line-height: 40/40rem;
+        text-align: center;
+        margin-right: 20/40rem;
+      }
+      .topList{
+
+        .brandName{
+          font-size: 30/40rem;
+          line-height: 40/40rem;
+          color: #000;
+        }
+        .brandInfo{
+          line-height: 54/40rem;
+          font-size: 24/40rem;
+          color: #888;
+        }
+        .jiantou{
+          position: absolute;
+          width: 18/40rem;
+          height: 34/40rem;
+          right: 20/40rem;
+          top: 50%;
+          transform: translateY(-50%);
+          background: url("../images/ic_jiantou.png") no-repeat;
+        }
+      }
+    }
+  }
+  .listPro{
+    .prList{
+      padding: 30/40rem 40/40rem 30/40rem 22/40rem;
+      border-bottom: 2/40rem solid #cacaca;
+      position: relative;
+      font-size: 22/40rem;
+
+      img{
+        width: 195/40rem;
+        float: left;
+        margin-right: 22/40rem;
+
+      }
+      .productName{
+        width: 470/40rem;
+        font-size: 26/40rem;
+        line-height: 40/40rem;
+        font-weight: 700;
+        height: 80/40rem;
+        white-space: pre-wrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin-bottom: 20/40rem;
+      }
+      .pro-price{
+        font-size: 30/40rem;
+        color:#f00;
+        line-height: 40/40rem;
+        font-weight: 700;
+        //border-bottom: 1px solid #f00;
+        margin-bottom: 10/40rem;
+      }
+      .tellPrice,.evaluate{
+        color: #888;
+      }
+    }
+
+  }
+  .productcom{
+    li{
+      padding: 20/40rem;
+      border-bottom: 1px solid #ccc;
+      .img{
+        margin-right: 50/40rem;
+      }
+      .probox{
+        height: 200/40rem;
+        font-size: 24/40rem;
+        color: #888;
+      }
+      .appraiseBox{
+        padding: 20/40rem;
+        border: 1px solid #ccc;
+        font-size: 20/40rem;
+        color: #888;
+        line-height: 50/40rem;
+        position: relative;
+        background: #f8f8f8;
+        &:before{
+          content: '';
+          position: absolute;
+          left: 60/40rem;
+          top: -20/40rem;
+          width: 40/40rem;
+          height: 40/40rem;
+
+          background: #f8f8f8;
+          border-left: 1px solid #ccc;
+          border-top: 1px solid #ccc;
+          transform: rotate(45deg);
+
+        }
+        .person{
+          color: #597327;
+
+        }
+        .appraise{
+          font-size: 28/40rem;
+          color: #000;
+          line-height: 45/40rem;
+          background: #f8f8f8;
+
+        }
+
+
+      }
+    }
+  }
+}

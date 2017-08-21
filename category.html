@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title></title>
+  <script src="jquery/jquery-1.12.0.min.js"></script>
+  <script src="js/rem.js"></script>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/common.css"/>
+  <link rel="stylesheet" href="css/com.css"/>
+  <link rel="stylesheet" href="css/category.css"/>
+</head>
+<body>
+<!--头部开始-->
+
+<header>
+  <h1 class="logo"><a href="#">慢慢买</a></h1>
+
+  <div class="load"></div>
+</header>
+<!--头部结束-->
+<!--search开始-->
+<section class="search">
+  <input type="search" name="search" placeholder="请输入你想比价的商品"/>
+  <input type="button" name="schBtn" value="搜索"/>
+</section>
+<!--search结束-->
+
+<section class="body">
+  <ul class="title">
+
+  </ul>
+  <script type="text/template" id="first-title">
+    {{each result as value}}
+    <li class="first-title">
+      <div class="clearfix"><span class="fl">{{#value.title}}</span><span class="fr"></span></div>
+      <ul class="second-title clearfix"></ul>
+    </li>
+    {{/each}}
+  </script>
+
+  <script type="text/template" id="second-title">
+
+    {{each result as value}}
+    <li class="fl w33 sec-title" data-categoryId='{{#value.categoryId}}'>
+    {{#value.category}}
+    </li>
+    {{/each}}
+
+  </script>
+
+  <div class="threetitle clearfix">
+    <div class="threeBar">
+      <span class="fl"></span>
+
+      <div class="machine fr">筛选</div>
+    </div>
+    <div class="product clearfix">
+    </div>
+    <script type="text/template" id="product">
+      {{each result as value}}
+      <div class="clearfix prList" data-productId="{{#value.productId}}">
+        <a class="a" href="bijia.html?productid={{#value.productId}}&categoryid={{#value.categoryId}}&productCom={{#value.productCom}}&productPrice={{#value.productPrice}}"></a>
+        {{#value.productImg}}
+        <div class="fl">
+          <p class="productName">{{#value.productName}}</p>
+          <p class="pro-price">{{#value.productPrice}}</p>
+          <span class="tellPrice">{{value.productQuote}}</span>
+          <span class="evaluate">{{value.productCom}}</span>
+        </div>
+      </div>
+      {{/each}}
+    </script>
+    <div class="page">
+      <button class="prev fl">上一页</button>
+      <select name="page" id="page">
+      </select>
+      <script type=text/template id="pageOption">
+        {{each pageNum as value}}
+        <option name='{{#value.num}}'>{{#value.pageNum}}</option>
+        {{/each}}
+      </script>
+      <button class="next fr">下一页</button>
+    </div>
+  </div>
+
+</section>
+
+
+<!--底部开始  公共-->
+<footer>
+  <ul class="clearfix">
+    <li class="fl">登录</li>
+    <li class="fl">注册</li>
+    <li class="fl"><img src="images/icons/top.jpg"/>返回顶部</li>
+  </ul>
+  <p><span>手机APP下载</span> <span>慢慢买手机版</span> <span>--掌上比价平台</span></p>
+
+  <p>m.manmanbuy.com</p>
+</footer>
+<!--底部结束  公共-->
+
+
+</body>
+<script src="js/template.js"></script>
+<script src='js/MLRoute.js'></script>
+<script src="js/com.js"></script>
+<script src="js/category.js"></script>
+</html>

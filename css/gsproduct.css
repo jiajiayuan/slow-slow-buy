@@ -1,0 +1,88 @@
+.body {
+  background: #f1f1f1;
+}
+.body .shop {
+  height: 1.875rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.body .shop .form {
+  position: relative;
+  font-size: 0.75rem;
+  line-height: 1.875rem;
+}
+.body .shop .form div {
+  text-indent: 1rem;
+  width: 4.5rem;
+  color: #000;
+}
+.body .shop .form ul {
+  width: 18.75rem;
+  left: 0;
+  top: 1.9rem;
+  font-size: 0.65rem;
+  line-height: 1.875rem;
+  border: none;
+  position: absolute;
+  background: #fff;
+}
+.body .shop .form ul li {
+  padding: 0 0.25rem;
+  border-bottom: 1px solid #ccc;
+  height: 1.875rem;
+}
+.body .shop .form .search {
+  width: 1.875rem;
+  height: 1.875rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #ccc;
+  background: url("../images/icon_bar.png") no-repeat -0.125rem -0.125rem;
+}
+.body .product {
+  padding: 0.5rem 0 1.75rem;
+}
+.body .product li {
+  height: 11.5rem;
+  border: 0.25rem solid transparent;
+  box-sizing: border-box;
+  background: #fff;
+  background-clip: padding-box;
+  padding: 0.25rem;
+  padding-top: 0;
+}
+.body .product li:nth-child(odd) {
+  border-left-width: 0.5rem;
+}
+.body .product li:nth-child(even) {
+  border-right-width: 0.5rem;
+}
+.body .product li img {
+  width: auto;
+  height: 8.125rem;
+  margin: 0 auto;
+}
+.body .product li p {
+  line-height: 1.25rem;
+  font-size: 0.6rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #000;
+}
+.body .product li div {
+  font-size: 0.7rem;
+}
+.body .product li div span {
+  color: red;
+}
+.body .product li div input {
+  font-size: 0.7rem;
+  width: 3.125rem;
+  border-radius: 0.2rem;
+  height: 1.375rem;
+  background: #ff841d;
+  background: #ff7502;
+  color: #ffffff;
+}

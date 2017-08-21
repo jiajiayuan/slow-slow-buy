@@ -1,0 +1,112 @@
+@import "variate";
+@import "com.less";
+
+
+
+//菜单开始
+.menu{
+  margin-top: 20/40rem;
+  padding-top:50/40rem;
+  background:@backcolor ;
+  margin-bottom: 8/40rem;
+  position: relative;
+  .price{
+    //width: 100/40rem;
+    height: 174/40rem;
+    font-size: 24/40rem;
+    line-height: 44/40rem;
+    text-align: center;
+    a{
+      display: inline-block;
+      img{
+        width: 100/40rem;
+        margin: 0 auto;
+      }
+    }
+
+  }
+}
+//菜单结束
+
+//产品部分开始
+.product{
+  background: @backcolor;
+  .pro-header{
+    height: 100/40rem;
+    background-image: linear-gradient(to bottom,#feb350,@color2);
+    p{
+      font-size: 36/40rem;
+      color: @backcolor;
+      line-height: 100/40rem;
+    }
+    p.jiantou{
+      font-size: 44/40rem;
+    }
+  }
+  .pro-sales{
+    li{
+      height: 258/40rem;
+      box-sizing: border-box;
+      padding:30/40rem 24/40rem 0 ;
+      border-bottom: 1px solid @borderColor;
+      position: relative;
+      a{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+      //.w{
+        img{
+          float: left;
+          height: 200/40rem;
+          width: auto;
+
+        }
+      //}
+
+      div{
+        width: 490/40rem;
+        font-size: 26/40rem;
+        text-align: justify;
+        .name{
+          height: 130/40rem;
+        }
+        .price{
+          color: red;
+        }
+        .from{
+          font-size: 20/40rem;
+
+          color: #91949b;
+        }
+      }
+    }
+  }
+  a{
+    display: block;
+    margin: 20/40rem 0;
+    width: 100%;
+    height: 60/40rem;
+    line-height: 60/40rem ;
+    border: 2px solid @borderColor;
+    border-radius: 5/40rem;
+    font-size: 26/40rem;
+    color: #000;
+    text-align: center;
+  }
+}
+.pro-header{
+  height: 100/40rem;
+  background-image: linear-gradient(to bottom,#feb350,@color2);
+  p{
+    font-size: 36/40rem;
+    color: @backcolor;
+    line-height: 100/40rem;
+  }
+  p.jiantou{
+    font-size: 44/40rem;
+  }
+}
+//产品部分结束

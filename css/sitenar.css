@@ -1,0 +1,22 @@
+.body {
+  background: #fff;
+}
+.body .message {
+  padding: 0.55rem 2.15rem 1.5rem;
+}
+.body .message li {
+  height: 2.15rem;
+  box-sizing: border-box;
+  padding: 0.25rem;
+  border: 1px solid #666;
+  font-size: 0.75rem;
+  color: #000;
+  line-height: 1.65rem;
+  margin: 0.25rem;
+  background: #f4f4f4;
+}
+.body .message li img {
+  width: 0.8rem;
+  display: inline-block;
+  vertical-align: text-bottom;
+}

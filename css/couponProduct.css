@@ -1,0 +1,84 @@
+header {
+  background: #f4483e;
+  border-bottom: 0.05rem solid #f22f23;
+}
+.body {
+  background: #ffffff;
+}
+.body .reminder {
+  line-height: 1.75rem;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.body .product li {
+  height: 5.875rem;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem 0.75rem 0.5rem;
+}
+.body .product li .img {
+  height: 4rem;
+  overflow: hidden;
+}
+.body .product li .img img {
+  width: 5rem;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.body .product li .img .description {
+  margin-left: 5.5rem;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #000;
+}
+.body .product li .img .description .price {
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+.body .product li .time {
+  margin-left: 5.5rem;
+  color: red;
+  font-size: 0.55rem;
+}
+.modal {
+  width: 100%;
+  height: 34rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+.modal .img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 70%;
+  height: 30%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.modal .img .left,
+.modal .img .right {
+  width: 15%;
+  height: 3rem;
+  background: rgba(36, 36, 36, 0.8);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  color: #666;
+  border-radius: 0.25rem;
+}
+.modal .img .image {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.modal .img .left {
+  left: 0;
+}
+.modal .img .right {
+  right: 0;
+}

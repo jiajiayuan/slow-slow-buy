@@ -1,0 +1,99 @@
+@import "variate";
+
+.body {
+  background: #f1f1f1;
+  .shop {
+    height: 75/40rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+
+    .form {
+      position: relative;
+      font-size: 30/40rem;
+      line-height: 75/40rem;
+
+      div {
+        text-indent: 40/40rem;
+        width: 180/40rem;
+        color: #000;
+      }
+      ul {
+        width: 750/40rem;
+        left: 0;
+        top: 76/40rem;
+        //height: 75/40rem;
+        font-size: 26/40rem;
+        line-height: 75/40rem;
+        border: none;
+        position: absolute;
+        background: #fff;
+
+        li {
+          padding: 0 10/40rem;
+          border-bottom: 1px solid #ccc;
+          height: 75/40rem;
+
+        }
+      }
+      .search{
+        width: 75/40rem;
+        height: 75/40rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-left: 1px solid #ccc;
+        background: url("../images/icon_bar.png") no-repeat -5/40rem -5/40rem;
+      }
+    }
+  }
+  .product{
+    padding: 20/40rem 0 70/40rem;
+    li{
+      height: 460/40rem;
+      border:  10/40rem solid transparent;
+      box-sizing: border-box;
+      background: #fff;
+      background-clip: padding-box;
+      padding: 10/40rem;
+      padding-top: 0;
+
+      &:nth-child(odd){
+        border-left-width: 20/40rem;
+      }
+      &:nth-child(even){
+        border-right-width: 20/40rem;
+      }
+      img{
+        width: auto;
+        height: 325/40rem;
+        margin: 0 auto;
+
+      }
+      p{
+        line-height: 50/40rem;
+        font-size: 24/40rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #000;
+
+      }
+      div{
+        font-size: 28/40rem;
+        span{
+          color:red;
+
+        }
+        input{
+          font-size: 28/40rem;
+          width:125/40rem;
+          border-radius: 8/40rem;
+          height: 55/40rem;
+          background: @color1;
+          background: @color2;
+          color: @backcolor;
+        }
+      }
+    }
+  }
+}

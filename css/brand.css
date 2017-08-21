@@ -1,0 +1,133 @@
+.body {
+  background: #fff;
+}
+.body .title {
+  height: 1.825rem;
+  border-bottom: 0.05rem solid #c9c9c9;
+  border-top: 0.05rem solid #c9c9c9;
+  background: linear-gradient(to bottom, #ffffff, #e2e2e2);
+  text-indent: 0.75rem;
+  font-size: 0.7rem;
+  line-height: 1.825rem;
+  font-weight: 600;
+  color: #000;
+}
+.body .title.which {
+  background: #f3f3f3;
+  color: #5a1a0d;
+  font-weight: 600;
+}
+.body .proList li {
+  height: 3.25rem;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  position: relative;
+}
+.body .proList li .boxList {
+  width: 1rem;
+  height: 1rem;
+  box-sizing: border-box;
+  background: #c9c9c9;
+  border: 1px solid #c1c1c1;
+  color: #fff;
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+.body .proList li .topList .brandName {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #000;
+}
+.body .proList li .topList .brandInfo {
+  line-height: 1.35rem;
+  font-size: 0.6rem;
+  color: #888;
+}
+.body .proList li .topList .jiantou {
+  position: absolute;
+  width: 0.45rem;
+  height: 0.85rem;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../images/ic_jiantou.png") no-repeat;
+}
+.body .listPro .prList {
+  padding: 0.75rem 1rem 0.75rem 0.55rem;
+  border-bottom: 0.05rem solid #cacaca;
+  position: relative;
+  font-size: 0.55rem;
+}
+.body .listPro .prList img {
+  width: 4.875rem;
+  float: left;
+  margin-right: 0.55rem;
+}
+.body .listPro .prList .productName {
+  width: 11.75rem;
+  font-size: 0.65rem;
+  line-height: 1rem;
+  font-weight: 700;
+  height: 2rem;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+.body .listPro .prList .pro-price {
+  font-size: 0.75rem;
+  color: #f00;
+  line-height: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.body .listPro .prList .tellPrice,
+.body .listPro .prList .evaluate {
+  color: #888;
+}
+.body .productcom li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.body .productcom li .img {
+  margin-right: 1.25rem;
+}
+.body .productcom li .probox {
+  height: 5rem;
+  font-size: 0.6rem;
+  color: #888;
+}
+.body .productcom li .appraiseBox {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 0.5rem;
+  color: #888;
+  line-height: 1.25rem;
+  position: relative;
+  background: #f8f8f8;
+}
+.body .productcom li .appraiseBox:before {
+  content: '';
+  position: absolute;
+  left: 1.5rem;
+  top: -0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background: #f8f8f8;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  transform: rotate(45deg);
+}
+.body .productcom li .appraiseBox .person {
+  color: #597327;
+}
+.body .productcom li .appraiseBox .appraise {
+  font-size: 0.7rem;
+  color: #000;
+  line-height: 1.125rem;
+  background: #f8f8f8;
+}

@@ -1,0 +1,50 @@
+.body {
+  background: #fff;
+}
+.body .title {
+  height: 1.825rem;
+  border-bottom: 0.05rem solid #c9c9c9;
+  border-top: 0.05rem solid #c9c9c9;
+  background: linear-gradient(to bottom, #ffffff, #e2e2e2);
+  text-indent: 0.75rem;
+  font-size: 0.7rem;
+  line-height: 1.825rem;
+  font-weight: 600;
+  color: #000;
+}
+.body .top {
+  margin: 0.5rem 0.25rem;
+  height: 2rem;
+  box-sizing: border-box;
+  background: #eee;
+  border: 1px solid #ccc;
+  line-height: 1.95rem;
+  font-size: 0.8rem;
+  text-indent: 0.5rem;
+  color: #732700;
+  font-weight: 700;
+}
+.body .proList {
+  border-top: 0.05rem solid #cccccc;
+  border-radius: 0.15rem;
+  padding-bottom: 1.25rem;
+  box-sizing: border-box;
+}
+.body .proList li {
+  background: #ededed;
+  border-bottom: 0.05rem solid #cacaca;
+  font-size: 0.85rem;
+  line-height: 1.95rem;
+  text-indent: 1rem;
+  color: #000;
+  font-weight: 600;
+  position: relative;
+}
+.body .proList li .img {
+  width: 0.55rem;
+  height: 0.55rem;
+  background: url("../images/icon_bar.png") no-repeat -2.5rem -0.275rem;
+  background-size: 5.5rem;
+  margin-right: 0.65rem;
+  margin-top: 0.7rem;
+}

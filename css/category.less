@@ -1,0 +1,151 @@
+@import "variate";
+@import "com";
+.body{
+  background: @backcolor;
+
+  .title{
+    //display: none;
+    background: @ulColor;
+    border-top:2/40rem solid #c7c7c7;
+    border-bottom:2/40rem solid #c7c7c7 ;
+    border-radius: 6/40rem;
+    margin-bottom: 50/40rem;
+    li.first-title{
+      //height: 78/40rem;
+      border-bottom: 2/40rem solid #cacaca;
+      font-size: 28/40rem;
+      line-height: 78/40rem;
+      text-indent: 40/40rem;
+      font-weight: 700;
+      &:nth-last-child(1){
+        border-bottom: none;
+      }
+      div{
+        span.fr{
+          width: 22/40rem;
+          height: 22/40rem;
+          background: url("../images/icon_bar.png") no-repeat -100/40rem -11/40rem;
+          background-size: 220/40rem;
+          margin-right: 26/40rem;
+          margin-top:28/40rem;
+          //&:visited{
+          //  left: 75/40rem;
+          //  top: 11/40rem;
+          //}
+        }
+
+      }
+      .second-title{
+        display: none;
+        border-top: 2/40rem solid #cacaca;
+        background: #f9f9f9;
+        text-indent: 30/40rem;
+        font-size: 24/40rem;
+        font-weight: 400;
+
+        li{
+          height:78/40rem ;
+          border-right: 1/40rem solid #cacaca ;
+          border-bottom: 1/40rem solid #cacaca;
+          line-height:78/40rem ;
+        }
+      }
+    }
+  }
+  .threetitle{
+    display: none;
+    .threeBar{
+      height: 73/40rem;
+      border-bottom: 2/40rem solid #c9c9c9;
+      border-top:2/40rem solid #c9c9c9;
+      background: linear-gradient(to bottom,#ffffff,#e2e2e2);
+      text-indent: 30/40rem;
+      font-size: 26/40rem;
+      line-height: 73/40rem;
+      color: #000;
+      .machine{
+        margin-right: 20/40rem;
+        width: 124/40rem;
+        height: 60/40rem;
+        box-sizing: border-box;
+        border: 2/40rem solid #cacaca;
+        border-radius: 10/40rem;
+        margin-top: 6/40rem;
+        background: linear-gradient(to bottom,#d4d4d4,#ffffff);
+        line-height: 60/40rem;
+      }
+      span{
+        display: inline-block;
+        //border: 1px solid red;
+
+      }
+      a{
+        color: #000;
+      }
+    }
+    .product{
+
+      .prList{
+        padding: 30/40rem 40/40rem 30/40rem 22/40rem;
+        border-bottom: 2/40rem solid #cacaca;
+        position: relative;
+        font-size: 22/40rem;
+
+        img{
+          width: 195/40rem;
+          float: left;
+          margin-right: 22/40rem;
+
+        }
+        .productName{
+          width: 470/40rem;
+          font-size: 26/40rem;
+          line-height: 40/40rem;
+          font-weight: 700;
+          height: 80/40rem;
+          white-space: pre-wrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          margin-bottom: 20/40rem;
+        }
+        .pro-price{
+          font-size: 30/40rem;
+          color:#f00;
+          line-height: 40/40rem;
+          font-weight: 700;
+          //border-bottom: 1px solid #f00;
+          margin-bottom: 10/40rem;
+        }
+        .tellPrice,.evaluate{
+          color: #888;
+        }
+      }
+
+    }
+    .page{
+      width: 665/40rem;
+      height: 70/40rem;
+      margin: 15/40rem auto 5/40rem;
+      font-size: 26/40rem;
+      .prev,#page,.next{
+        display: inline-block;
+        height: 70/40rem;
+        width: 164/40rem;
+
+      }
+      #page{
+        text-indent: 20/40rem;
+      }
+      .prev,.next{
+        background: linear-gradient(to bottom,#f0f0f0,#d6d6d6);
+        border: none;
+        border-radius: 8/40rem;
+        font-size: 26/40rem;
+      }
+      .prev{
+        margin-right: 90/40rem;
+      }
+    }
+  }
+
+}

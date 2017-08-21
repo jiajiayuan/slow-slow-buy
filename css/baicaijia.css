@@ -1,0 +1,150 @@
+header {
+  background: #f4483e;
+  border-bottom: 0.05rem solid #f22f23;
+}
+#nav {
+  padding: 0 0.5rem;
+  background: #ffffff;
+  height: 2rem;
+  line-height: 2rem;
+  margin-bottom: 0.25rem;
+}
+#nav .nav {
+  width: 16.5rem;
+  overflow: auto;
+}
+#nav .nav ul {
+  width: 36.75rem;
+  font-size: 0.7rem;
+  color: #000;
+  font-weight: 500;
+}
+#nav .nav ul li {
+  padding: 0 0.55rem;
+}
+.select {
+  color: red;
+  border-bottom: 0.075rem solid red;
+}
+.con {
+  background: #f8f8f8;
+  margin-bottom: 1.5rem;
+}
+.con ul li {
+  padding: 0.5rem;
+  box-sizing: border-box;
+  height: 7.5rem;
+  background: #ffffff;
+  margin-bottom: 0.25rem;
+  position: relative;
+}
+.con ul li .img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.con ul li .description {
+  margin-left: 6.75rem;
+  width: auto;
+  height: 6.5rem;
+  color: #000;
+}
+.con ul li .description .productName {
+  font-size: 0.65rem;
+  line-height: 1rem;
+  height: 2rem;
+  overflow: hidden;
+}
+.con ul li .description .productPrice {
+  color: red;
+  font-size: 0.85rem;
+  line-height: 2rem;
+}
+.con ul li .description .productPrice i,
+.con ul li .description .productPrice em,
+.con ul li .description .productPrice del {
+  display: inline-block;
+}
+.con ul li .description .productPrice i {
+  font-size: 0.7rem;
+}
+.con ul li .description .productPrice em {
+  font-size: 0.5rem;
+}
+.con ul li .description .productPrice del {
+  font-size: 0.5rem;
+  color: #666;
+  margin-left: 0.5rem;
+}
+.con ul li .description .productCouponRemain .bar {
+  height: 1.125rem;
+}
+.con ul li .description .productCouponRemain .bar i {
+  display: inline-block;
+  background: #ffb7b7;
+  width: 4.125rem;
+  height: 0.75rem;
+  box-sizing: border-box;
+  border: 0.05rem solid red;
+  border-radius: 0.375rem;
+  position: relative;
+  top: 0.05rem;
+  overflow: hidden;
+}
+.con ul li .description .productCouponRemain .bar i em {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  border-radius: 0.375rem;
+  background: red;
+  top: 0;
+  left: 0;
+}
+.con ul li .description .productCouponRemain .bar i span {
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  width: 100%;
+  font-size: 0.5rem;
+  line-height: 0.65rem;
+  color: #ffffff;
+}
+.con ul li .description .productCouponRemain .bar b {
+  font-size: 0.7rem;
+  display: inline-block;
+  color: red;
+  font-weight: 400;
+  line-height: 0.7rem;
+  margin-top: -0.05rem;
+  margin-left: 0.5rem;
+}
+.con ul li .description .productCoupon {
+  height: 1.25rem;
+}
+.con ul li .description .productCoupon a {
+  width: 5.375rem;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0.025rem dashed red;
+  font-size: 0.5rem;
+  color: red;
+  text-align: center;
+  line-height: 1.25rem;
+  z-index: 5;
+}
+.con ul li .description .productCoupon .abutton {
+  width: 3rem;
+  height: 100%;
+  background: #ff5e5d;
+  border: 0.025rem solid red;
+  border-radius: 0.2rem;
+  color: #ffffff;
+  font-size: 0.6rem;
+  line-height: 1.25rem;
+  position: relative;
+  text-align: center;
+}
+.con ul li .description .productCoupon .abutton a {
+  width: 100%;
+  z-index: 5;
+  border: 0;
+}

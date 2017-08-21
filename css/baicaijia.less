@@ -1,0 +1,180 @@
+@import "variate";
+header{
+  background: #f4483e;
+  border-bottom: 2/40rem solid #f22f23;
+}
+#nav{
+  padding:0 20/40rem;
+  background: @backcolor;
+  height: 80/40rem;
+  line-height: 80/40rem;
+  margin-bottom: 10/40rem;
+  .nav{
+    width: 660/40rem;
+    overflow:auto;
+    ul {
+      width:1470/40rem;
+      font-size: 28/40rem;
+      color:#000;
+      font-weight: 500;
+      li {
+        padding:0 22/40rem;
+      }
+    }
+  }
+}
+.select{
+  color: red;
+  border-bottom: 3/40rem solid red;
+}
+
+//下列产品
+.con{
+  background: #f8f8f8;
+  margin-bottom: 60/40rem;
+  ul{
+
+    li{
+      padding: 20/40rem;
+      box-sizing: border-box;
+      height: 300/40rem;
+      background: @backcolor;
+      margin-bottom: 10/40rem;
+      position: relative;
+      .img{
+        width: 260/40rem;
+        height:260/40rem;
+      }
+      .description{
+        margin-left: 270/40rem;
+        width: auto;
+        height: 260/40rem;
+        color: #000;
+        .productName{
+          font-size: 26/40rem;
+          line-height: 40/40rem;
+          height: 80/40rem;
+          overflow: hidden;
+        }
+        .productPrice{
+          color:red;
+          font-size: 34/40rem;
+          line-height: 80/40rem;
+          i,em,del{
+            display: inline-block;
+          }
+          i{
+            font-size: 28/40rem;
+
+          }
+          em{
+            font-size: 20/40rem;
+          }
+          del{
+            font-size: 20/40rem;
+            color:#666;
+            margin-left: 20/40rem;
+          }
+        }
+        .productCouponRemain{
+          .bar{
+            height: 45/40rem;
+            i{
+              display: inline-block;
+              background: #ffb7b7;
+              width: 165/40rem;
+              height: 30/40rem;
+              box-sizing: border-box;
+              border: 2/40rem solid red;
+              border-radius: 15/40rem;
+              position: relative;
+              top: 2/40rem;
+              overflow: hidden;
+              //margin-top: 2/40rem;
+              em{
+                display: inline-block;
+                position: absolute;
+                height: 100%;
+                border-radius: 15/40rem;
+                background: red;
+                top: 0;
+                left: 0;
+              }
+              span{
+                position: absolute;
+                z-index: 5;
+                text-align: center;
+                width: 100%;
+                font-size:20/40rem;
+                line-height: 26/40rem;
+                color: @backcolor;
+              }
+            }
+            b{
+              font-size: 28/40rem;
+              display: inline-block;
+              color: red;
+              font-weight: 400;
+              line-height: 28/40rem;
+              margin-top: -2/40rem;
+              margin-left: 20/40rem;
+            }
+
+          }
+        }
+
+        .productCoupon{
+          height: 50/40rem;
+          a{
+            width: 215/40rem;
+
+            display:inline-block;
+            box-sizing: border-box;
+            border: 1/40rem dashed red;
+            font-size: 20/40rem;
+            color: red;
+            text-align: center;
+            line-height: 50/40rem;
+            z-index: 5;
+          }
+          .abutton{
+            width: 120/40rem;
+            height: 100%;
+            background: #ff5e5d;
+            border: 1/40rem solid red;
+            border-radius: 8/40rem;
+            color: @backcolor;
+            font-size: 24/40rem;
+            line-height: 50/40rem;
+            position: relative;
+            text-align: center;
+            a{
+              width: 100%;
+              z-index: 5;
+              border: 0;
+              //width: 120/40rem;
+              //height: 100%;
+              //background: #ff5e5d;
+              //border: 1/40rem solid red;
+              //border-radius: 8/40rem;
+              //color: @backcolor;
+              //font-size: 24/40rem;
+              //line-height: 50/40rem;
+            }
+          }
+          //button{
+          //  width: 120/40rem;
+          //  height: 100%;
+          //  background: #ff5e5d;
+          //  border: 1/40rem solid red;
+          //  border-radius: 8/40rem;
+          //  color: @backcolor;
+          //  font-size: 24/40rem;
+          //  line-height: 50/40rem;
+          //}
+        }
+      }
+    }
+
+  }
+}
